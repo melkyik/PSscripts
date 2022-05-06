@@ -10,7 +10,7 @@ try
        if (-Not([System.IO.Directory]::Exists($pathToDisk)))
         {
             Write-Host "Mounting Disk"
-            net use Z: "https://ifarmproject.bitrix24.ru/extranet/contacts/personal/user/340/disk/path/BackUp/" /User:info+scada001@ifarmproject.com HJzwnxRYrnh2uHyl0v8Q
+            net use Z: "https://ifarmproject.bitrix24.ru/extranet/contacts/personal/user/340/disk/path/BackUp/" /User:login pass
         }
         
         Start-Sleep -s 2
